@@ -39,11 +39,13 @@ Reference: https://get.kintone.help/hc/en-us/articles/115001511188-Adding-Plug-i
 5. Click the + button on the Record List page to start adding a new record. A button should appear in the Blank Space field.
 
 ## How to modify
-1. Type the following into the terminal to clone the repo:
-```
-git clone https://github.com/kintone/SAMPLE-Date-input-button-Plug-in.git
-```
+1. Fork to your repo
 2. Make changes to files under /src
 3. Repackage the plug-in by:  
  i. Zipping the manifest.json file, css directory, html directory, image directory and js directory into one zip file.  
  ii. Drag and dropping the file into the [kintone plug-in packer](https://kintone.github.io/plugin-packer/).
+
+## Pull Request Policy
+As this repo exists for educational purposes, we will most likely turn down pull requests that contain updates with new features.  
+Please feel free to host plug-ins with new features on your own repository.  
+Bug fixes are happily accepted.
