@@ -46,4 +46,4 @@ git clone https://github.com/kintone/SAMPLE-Date-input-button-Plug-in.git
 2. Make changes to files under /src
 3. Repackage the plug-in by:  
  i. Zipping the manifest.json file, css directory, html directory, image directory and js directory into one zip file.  
- ii. Drag and dropiing the file into the [kintone plug-in packer](https://kintone.github.io/plugin-packer/).
+ ii. Drag and dropping the file into the [kintone plug-in packer](https://kintone.github.io/plugin-packer/).
