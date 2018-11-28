@@ -10,7 +10,7 @@
       "css/51-modern-default.css"
     ]
   },
-  "icon": "image/icon.png",
+  "icon": "image/date.png",
   "config": {
     "html": "html/config.html",
     "js": [
