@@ -23,7 +23,7 @@ src/
 │        ├──── config.js  
 │        └──── desktop.js  
 ├── image/  
-│        └──── icon.png  
+│        └──── date.png  
 └── manifest.json  
 
 ## How to use
