@@ -20,7 +20,6 @@ jQuery.noConflict();
   }
 
   function setDropDownForSpace(rows) {
-    // Use the row information obtained from getLayout() and extract all Blank space fields.
     // Create a dropdown menu containing a list of Space fields in the config.
     return KintoneConfigHelper.getFields('SPACER').then(function(resp) {
       resp.forEach(function(field) {
@@ -37,7 +36,6 @@ jQuery.noConflict();
   }
 
   function setDropDownForDate() {
-    // Retrieve all fields from the form and extract all Date fields.
     // Create a dropdown menu containing a list of Date fields in the config.
     return KintoneConfigHelper.getFields('DATE').then(function(resp) {
       resp.forEach(function(field) {
