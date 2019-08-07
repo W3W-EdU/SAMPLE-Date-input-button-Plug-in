@@ -70,7 +70,10 @@ jQuery.noConflict();
     config.date = date;
     config.space = space;
 
-    kintone.plugin.app.setConfig(config);
+    kintone.plugin.app.setConfig(config, function() {
+      alert('The plug-in settings have been saved. Please update the app!');
+      window.location.href = '/k/admin/app/flow?app=' + kintone.app.getId();
+    });
   });
   // Process when 'Cancel' is clicked
   $cancelButton.click(function() {
