@@ -10,7 +10,7 @@ jQuery.noConflict();
   // Get configuration settings
   var CONF = kintone.plugin.app.getConfig(PLUGIN_ID);
   var $form = $('.js-submit-settings');
-  var $cancelButton = $('#js-cancel-button');
+  var $cancelButton = $('.js-cancel-button');
   var $date = $('select[name="js-select-date-field"]');
   var $space = $('select[name="js-select-space-field"]');
 
@@ -53,7 +53,6 @@ jQuery.noConflict();
 
   // Set dropdown list
   setDropDownForDate()
-    .then(setDropDownForDate)
     .then(setDropDownForSpace);
   // Set input values when 'Save' button is clicked
   $form.on('submit', function(e) {
