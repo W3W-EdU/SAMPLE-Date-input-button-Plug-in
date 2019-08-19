@@ -62,11 +62,6 @@ jQuery.noConflict();
     var date = $date.val();
     var space = $space.val();
 
-    // Check required fields
-    if (date === '' || space === '') {
-      alert('Please set required field(s)');
-      return;
-    }
     config.date = date;
     config.space = space;
 
@@ -77,6 +72,6 @@ jQuery.noConflict();
   });
   // Process when 'Cancel' is clicked
   $cancelButton.click(function() {
-    history.back();
+    window.location.href = '/k/admin/app/' + kintone.app.getId() + '/plugin/';
   });
 })(jQuery, kintone.$PLUGIN_ID);
