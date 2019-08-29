@@ -19,7 +19,7 @@ jQuery.noConflict();
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
-  function setDropDownForSpace(rows) {
+  function setDropDownForSpace() {
     // Create a dropdown menu containing a list of Space fields in the config.
     return KintoneConfigHelper.getFields('SPACER').then(function(resp) {
       resp.forEach(function(field) {
