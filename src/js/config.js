@@ -57,7 +57,7 @@ jQuery.noConflict();
   // Set input values when 'Save' button is clicked
   $form.on('submit', function(e) {
     e.preventDefault();
-    var config = [];
+    var config = {};
     var date = $date.val();
     var space = $space.val();
 
