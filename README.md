@@ -2,7 +2,7 @@
 ## Purpose of the Sample Plug-in
 This sample plug-in is available for educational purposes.  
 Use this plug-in to understand how Kintone plug-ins work, and how they are structured.
-A non-packaged version written with a single JavaScript file can be found here https://developer.kintone.io/hc/en-us/articles/115005327527
+A non-packaged version written with a single JavaScript file can be found here https://kintone.dev/en/tutorials/autofill-data/add-todays-date-to-the-date-field-with-one-click/
 
 ## What the plug-in does
 This plug-in displays a button on a Blank space field within a Kintone App.
