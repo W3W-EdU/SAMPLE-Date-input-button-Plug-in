@@ -2,6 +2,6 @@
 /* Copyright (c) 2018 Cybozu */
 /* https://github.com/kintone/SAMPLE-Date-input-button-Plug-in/blob/master/LICENSE */
 
-.kintoneplugin-desc::first-letter {
+.kintoneplugin-desc::first-letter {packages/create-plugin
   text-transform: capitalize;
 }
